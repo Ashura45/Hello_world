@@ -1,3 +1,6 @@
+import time
+
+
 class Hello_world:
     text = 'Hello world!'
     def say(self):
@@ -7,4 +10,4 @@ class Hello_world:
 if __name__ == "__main__":
     hello = Hello_world()
     print(hello.say())
-
+    time.sleep(5)
